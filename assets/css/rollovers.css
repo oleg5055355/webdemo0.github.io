@@ -1,0 +1,17 @@
+.content {
+    margin-left: 220px; /* Adjust if your menu width is different */
+    padding: 20px;
+    text-align: center;
+}
+
+.rollover-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rollover {
+    width: 400px; /* Adjust based on your image size */
+    height: auto;
+    cursor: pointer; /* Indicates an interactive element */
+    transition: opacity 0.3s ease; /* Smooth transition for a better user experience */
+}

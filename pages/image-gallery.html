@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/image-gallery.css">
+</head>
+<body>
+
+<div class="menu">
+    <h2>Menu</h2>
+    <div class="menu-section">
+        <h3>Client Side Scripting</h3>
+        <ul>
+            <li><a href="../index.html">Start Page</a></li>
+            <li><a href="validate-input.html">Validate Input</a></li>
+            <li><a href="sliding-panels.html">Sliding Panels</a></li>
+            <li><a href="cycling-images.html">Cycling Images</a></li>
+            <li><a href="image-gallery.html">Image Gallery</a></li>
+            <li><a href="update-totals.html">Update Totals</a></li>
+            <li><a href="rollovers.html">Rollovers</a></li>
+            <li><a href="open-window.html">Open Window</a></li>
+            <li><a href="dynamic-update.html">Dynamic Update</a></li>
+            <li><a href="cookies.html">Cookies</a></li>
+        </ul>
+    </div>
+    <div class="menu-section">
+        <h3>Server Side Scripting</h3>
+        <ul>
+            <li><a href="ajax-table.html">AJAX Table</a></li>
+            <li><a href="ajax-list.html">AJAX List</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="content">
+    <h1>Image Gallery</h1>
+    <div class="gallery">
+        <a href="#" class="image" data-image="../assets/images/image1_large.png"><img src="../assets/images/image1_thumb.png" alt="Thumbnail 1"></a>
+        <a href="#" class="image" data-image="../assets/images/image2_large.png"><img src="../assets/images/image2_thumb.png" alt="Thumbnail 2"></a>
+        <a href="#" class="image" data-image="../assets/images/image3_large.png"><img src="../assets/images/image3_thumb.png" alt="Thumbnail 3"></a>
+        <a href="#" class="image" data-image="../assets/images/image4_large.png"><img src="../assets/images/image4_thumb.png" alt="Thumbnail 4"></a>
+        <a href="#" class="image" data-image="../assets/images/image5_large.png"><img src="../assets/images/image5_thumb.png" alt="Thumbnail 5"></a>
+        <a href="#" class="image" data-image="../assets/images/image6_large.png"><img src="../assets/images/image6_thumb.png" alt="Thumbnail 6"></a>
+        <a href="#" class="image" data-image="../assets/images/image7_large.png"><img src="../assets/images/image7_thumb.png" alt="Thumbnail 7"></a>
+        <a href="#" class="image" data-image="../assets/images/image8_large.png"><img src="../assets/images/image8_thumb.png" alt="Thumbnail 8"></a>
+    </div>
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <div id="caption"></div>
+    </div>
+</div>
+
+<script src="../assets/js/image-gallery.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+#cart {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#cart th, #cart td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#cart tr:nth-child(even){background-color: #f2f2f2;}
+
+#cart tr:hover {background-color: #ddd;}
+
+.quantity {
+    width: 50px;
+}
+
+#totalPrice {
+    font-weight: bold;
+}

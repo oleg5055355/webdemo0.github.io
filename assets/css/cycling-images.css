@@ -1,0 +1,24 @@
+.content {
+    margin-left: 220px; /* Adjust if your menu width is different */
+    padding: 20px;
+    text-align: center;
+}
+
+#imageGallery {
+    position: relative;
+    width: 400px; /* Adjust based on your image size */
+    margin: auto;
+    height: 405px; /* Adjust based on your image size */
+}
+
+#imageGallery img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#imageGallery img.active {
+    opacity: 1;
+}
